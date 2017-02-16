@@ -1,5 +1,5 @@
 {
-    "name": "getright/backend-customizer-plugin",
+    "name": "getrightnl/october-backend-customizer",
     "description": "Customize backend of OctoberCMS.",
     "type": "october-plugin",
     "authors": [
