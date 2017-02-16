@@ -1,0 +1,24 @@
+fields:
+    october_dashboard_icon:
+        label: getright.backendcustomizer::lang.form.october_dashboard_icon_label
+        commentAbove: getright.backendcustomizer::lang.form.october_dashboard_icon_description
+        type: text
+    october_cms_icon:
+        label: getright.backendcustomizer::lang.form.october_cms_icon_label
+        commentAbove: getright.backendcustomizer::lang.form.october_cms_icon_description
+        type: text
+    october_media_icon:
+        label: getright.backendcustomizer::lang.form.october_media_icon_label
+        commentAbove: getright.backendcustomizer::lang.form.october_media_icon_description
+        type: text
+    october_settings_icon:
+        label: getright.backendcustomizer::lang.form.october_settings_icon_label
+        commentAbove: getright.backendcustomizer::lang.form.october_settings_icon_description
+        type: text
+    custom_css:
+        label: getright.backendcustomizer::lang.form.custom_css_label
+        commentAbove: getright.backendcustomizer::lang.form.custom_css_description
+        type: fileupload
+        mode: file
+        fileTypes: css
+

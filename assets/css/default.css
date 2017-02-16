@@ -1,0 +1,75 @@
+/* Disable svg-icons, enable font awesome icons */
+.svg-icon{ display: none !important; }
+.svg-replace { display: inline !important; }
+
+/* Change topbar color */
+nav#layout-mainmenu{
+    background-color: #00aeec;
+}
+
+nav#layout-mainmenu ul li a{
+    text-shadow: none;
+}
+
+nav#layout-mainmenu.navbar-mode-inline ul.mainmenu-nav li{
+    margin: 0 0;
+    padding: 5px 0;
+}
+
+nav#layout-mainmenu.navbar ul li.active{
+    border-bottom: 4px solid #04719f;
+}
+
+/* Side Nav Styles */
+#layout-sidenav{
+    background-color: #888;
+}
+
+#layout-sidenav ul li a .nav-label, #layout-sidenav ul li a .nav-icon{
+    text-shadow: none;
+}
+
+#layout-sidenav ul:after{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#layout-sidenav ul li{
+    border-bottom: 1px solid #7d7d7d;
+    padding: 20px 0;
+}
+
+#layout-sidenav ul li a{
+    padding: 0;
+}
+
+#layout-sidenav ul li:first-child a{
+    padding-top: 0;
+}
+
+#layout-sidenav ul li.active a, #layout-sidenav ul li a:hover{
+    border-left: 4px solid #00aeec;
+}
+
+/* Styles for the content background */
+.fancy-layout .form-tabless-fields{
+    background: #006f9a !important;
+}
+
+.fancy-layout .control-tabs.master-tabs > div > div.tabs-container > ul.nav-tabs > li.active a > span.title, .fancy-layout.control-tabs.master-tabs > div > div.tabs-container > ul.nav-tabs > li.active a > span.title, .fancy-layout .control-tabs.master-tabs > div > div.tabs-container > ul.nav-tabs > li.active a > span.title:before, .fancy-layout.control-tabs.master-tabs > div > div.tabs-container > ul.nav-tabs > li.active a > span.title:before, .fancy-layout .control-tabs.master-tabs > div > div.tabs-container > ul.nav-tabs > li.active a > span.title:after, .fancy-layout.control-tabs.master-tabs > div > div.tabs-container > ul.nav-tabs > li.active a > span.title:after{
+    background: #006f9a !important;
+}
+
+.fancy-layout .control-tabs.master-tabs > div > div.tabs-container, .fancy-layout.control-tabs.master-tabs > div > div.tabs-container{
+    background-color: #0084aa !important;
+}
+
+.fancy-layout .control-tabs.primary-tabs > div > ul.nav-tabs.master-area, .fancy-layout.control-tabs.primary-tabs > div > ul.nav-tabs.master-area{
+    background: #006f9a !important;
+}
+
+/* Buttons */
+.btn-default{
+    background-color: #555;
+    background: #555;
+}

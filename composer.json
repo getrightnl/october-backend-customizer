@@ -1,0 +1,12 @@
+{
+    "name": "getright/backend-customizer-plugin",
+    "description": "Customize backend of OctoberCMS.",
+    "type": "october-plugin",
+    "authors": [
+        {
+            "name": "Lex Lemmens",
+            "email": "l.lemmens@getright.nl"
+        }
+    ],
+    "require": {}
+}
